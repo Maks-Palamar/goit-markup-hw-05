@@ -843,7 +843,7 @@ color: var(--WHITE, #FFF);
     display: block;
         font-size: 12px;
         font-weight: 400;
-        line-height: 1.16;
+        line-height: 1.17;
         /* 116.667% */
         letter-spacing: 0.04em;
         margin-bottom: 4px;
@@ -934,10 +934,10 @@ color: var(--WHITE, #FFF);
             margin-right: 8px;
             fill: transparent;
             stroke: transparent;
-            display: inline-flex;
                 align-items: center;
                 justify-content: center;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            display: inline-flex;
 }
 
 .modal-check:checked + .check-text > .check-text-box {
