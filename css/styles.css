@@ -631,10 +631,15 @@ color: var(--WHITE, #FFF);
     fill: #F4F4FD;
 }
 
-.footer-subscribe {
-    display: flex;
+.subscribe {
+   /* display: flex;
     align-items: center;
     justify-content: center;
+    */
+}
+
+.footer-form {
+    display: flex;
     gap: 24px;
 }
 
@@ -663,11 +668,11 @@ color: var(--WHITE, #FFF);
         
 }
 
-.subscribe-btn-wrap {
+/*.subscribe-btn-wrap {
     position: relative;
     display: flex;
     gap: 16px;
-}
+}*/
 
 .subscribe-btn {
     color: var(--WHITE, #FFF);
@@ -697,10 +702,11 @@ color: var(--WHITE, #FFF);
 }
 
 .subscribe-icon {
-    position: absolute;
+    /*position: absolute;
     right: 24px;
         top: 50%;
-        transform: translateY(-50%);
+        transform: translateY(-50%);*/
+        margin-left: 16px;
 }
 
 /*---------------------*/
